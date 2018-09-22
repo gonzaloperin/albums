@@ -1,16 +1,16 @@
 title: # Name of your blog (this will show up at the top of your page and in the RSS feed)
-  Adrien Joly
+  Mis Discos
 
 author: # Your name, as you want it to appear underneath each post and in the footer
-  Adrien Joly
+  G
 
-desc: Collection of music records I love, maintained with Jekyll on Github Pages
+desc: La colección de musica que amo, mantenida con Jekyll on Github pages
 
 keywords: music, albums, records, collection, jekyll, static-web
 
 repository: adrienjoly/album-shelf
 
-google_analytics: UA-1858235-4
+google_analytics: 
 
 # github defaults
 encoding: UTF-8
