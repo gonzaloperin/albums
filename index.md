@@ -1,5 +1,5 @@
 ---
-title: My Albums
+title: Mis Discos
 ---
 
 <!-- listed from _data/albums.yaml -->
