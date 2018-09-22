@@ -8,6 +8,7 @@
     {% if album.tags %}
       {% for tag in album.tags %}
         <span class="tag">{{ tag }}</span>
+        <span class="notes">{{ album.notes }}</span>
       {% endfor %}
     {% else %}
       <span class="release-date">{{ album.release_date | date: "%b %-d, %Y" }}</span>
