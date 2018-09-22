@@ -9,10 +9,12 @@
       {% for tag in album.tags %}
         <span class="tag">{{ tag }}</span>
       {% endfor %}
-    {% else %}
-    <span class="notes">{{ album.notes }}</span>
-
       <span class="release-date">{{ album.release_date | date: "%b %-d, %Y" }}</span>
+
+      <span class="notes">{{ album.notes }}</span>
+
+    {% else %}
+
     {% endif %}
   </article>
 {% endfor %}
