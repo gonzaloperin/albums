@@ -9,12 +9,22 @@
       {% for tag in album.tags %}
         <span class="tag">{{ tag }}</span>
       {% endfor %}
-      <span class="release-date">{{ album.release_date | date: "%b %-d, %Y" }}</span>
-
-      <span class="notes">{{ album.notes }}</span>
+ 
+  <div class="favtrackbox">
+<p class="favtracks" style="margin-top: 15px; margin-bottom: 10px; margin-left:10px;">Favourite Tracks</p>
+      <ul  style="list-style-type: none;">
+        <li><a class="favs" href="{{ album.fav1link }}">
+          {{ album.fav1 }}
+       </a></li>
+        <li><a class="favs" href="{{ album.fav2link }}">
+          {{ album.fav2 }}
+       </a></li>
+     
+      </ul> 
+    </div>    
 
     {% else %}
-
+      <span class="release-date">{{ album.release_date | date: "%b %-d, %Y" }}</span>
     {% endif %}
   </article>
 {% endfor %}
