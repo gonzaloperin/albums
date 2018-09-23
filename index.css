@@ -5,7 +5,7 @@
 article {
   display: inline-block;
   width: 320px;
-  height: 420px;
+  height: 100%;
   padding: 8px;
   overflow: hidden;
 }
@@ -30,4 +30,32 @@ article img {
   border-radius: 12px;
   font-size: 90%;
   padding: 2px 8px;
+}
+
+
+.favs {
+  color: white;
+  background-color: #D1D1D1;
+  border-radius: 12px;
+  font-size: 90%;
+  padding: 3px 8px;
+  list-style-type: none;
+}
+
+.favtracks {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.favtrackbox {
+  margin-top:20px;
+  padding:5px;
+  background-color: #FAFAFA;
+  width: 320px;
+  height: 120px;
+
 }
